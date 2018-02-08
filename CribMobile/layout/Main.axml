@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:screenOrientation="portrait">
+    <HorizontalScrollView
+        android:background="#FF448888"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="98.5dp"
+        android:id="@+id/horizontalScrollView1">
+        <LinearLayout
+            android:minWidth="50px"
+            android:minHeight="50px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1">
+            <Button
+                android:text="Types"
+                android:height="50dp"
+                android:width="50px"
+                android:textStyle="normal"
+                BackgroundColor="#FF448888"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button1"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Modifiers"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button2"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Method Parameters"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button4"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Namespace Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button5"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Operator Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button6"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Conversion Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button7"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Access Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button8"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Literal Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button9"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Contextual Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button10"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Query Keywords(LINQ)"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button11"
+                android:onClick="button_OnClick" />
+            <Button
+                android:text="Statement Keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="84.0dp"
+                android:id="@+id/button3"
+                android:onClick="button_OnClick" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/horizontalScrollView2">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1" />
+    </HorizontalScrollView>
+    <LinearLayout
+        android:id="@+id/linearLayoutPopUp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:gravity="center">
+        <TextView
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView1"
+            android:padding="20px"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="0.0dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</LinearLayout>

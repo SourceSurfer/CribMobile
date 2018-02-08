@@ -10,7 +10,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using ErrorWriteLog;
 using Java.Util.Concurrent.Atomic;
 using Mono.Data.Sqlite;
 using SQLite;

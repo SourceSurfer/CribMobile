@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">CribMobile</string>
+  <string name="Csharp">CribMobile</string>
+	<string name="closeDrawer">Drawer Closed</string>
+	<string name="descript">Description</string>
+  <string name="KeyWords">KeyWords</string>
+  <string name="Operators">Operators</string>
+  <string name="Preprocessor">Preprocessor</string>
+  <string name="type">Types</string>
+  <string name="modifi">Modifiers</string>
+  <string name="metparam">Method \nParameters</string>
+  <string name="namespace">Namespace \nKeywords</string>
+  <string name="operatkeywrd">Operator \nKeywords</string>
+  <string name="conversion">Conversion \nKeywords</string>
+  <string name="convers">Access \nKeywords</string>
+  <string name="literal">Literal \nKeywords</string>
+  <string name="contexual">Contextual \nKeywords</string>
+  <string name="query">Query \nKeywords(LINQ) </string>
+  <string name="statement">Statement \nKeywords</string>
+  
 </resources>

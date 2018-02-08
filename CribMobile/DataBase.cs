@@ -1,10 +1,4 @@
-using System.IO;
-using Android.Database.Sqlite;
-using Mono.Data.Sqlite;
-using ErrorWriteLog;
-using SQLite;
-using System;
-using System.Data;
+
 
 namespace CribMobile
 {
@@ -13,7 +7,7 @@ namespace CribMobile
     internal  class DataBase
     {
 
-        private static readonly string connectFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+      /*  private static readonly string connectFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
         private static readonly string pathToDataBase = Path.Combine(connectFolder, "CribDB.db");
         internal static string connectionString = string.Format("Data Source={0};Version=3;", pathToDataBase);
         public SQLiteConnection Con;
@@ -52,9 +46,8 @@ namespace CribMobile
 
         internal  void CreateDB()
         {
-            try
-            {
-                if (!File.Exists(pathToDataBase))
+         
+             /*   if (!File.Exists(pathToDataBase))
                 {
                     
                     SqliteConnection.CreateFile(pathToDataBase);
@@ -67,17 +60,11 @@ namespace CribMobile
                    // Con = new SQLiteConnection($"Data Source={pathToDataBase}");
                     CreateTable();
                 }
-            }
-            catch (SQLite.SQLiteException ex)
-            {
                 
-                ErrorWriter.WriteToLog(ex.Message + " " + ex.Data + " " + DateTime.Now);
-            }
-
            
-        }
+        }*/
 
-        private  void CreateTable()
+      /*  private  void CreateTable()
         {
             #region CreateTable
 
@@ -114,12 +101,12 @@ namespace CribMobile
                     }
                 }
             }
-            catch (Exception ex)
+            finally
             {
-               ErrorWriter.WriteToLog(ex.Message + " " + ex.Data + " " + DateTime.Now);
+                
             }
 
             #endregion
-        }
+        }*/
     }
 }
